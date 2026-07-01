@@ -29,10 +29,11 @@ Use this example if you:
 
 Before you begin, make sure you have:
 
-- Python 3.10+
+- Python 3.11+
 - Browser Use
 - A Rapidproxy account
-- Proxy credentials
+- Rapidproxy proxy credentials
+- Browser Use API Key
 
 ---
 
@@ -46,18 +47,28 @@ pip install -r requirements.txt
 
 ## Configure Proxy
 
-Replace the following placeholders with your own credentials.
+1. Copy the example environment file.
 
-```text
-HOST
-PORT
-USERNAME
-PASSWORD
+```bash
+cp .env.example .env
+```
+
+2. Open `.env` and replace the placeholders with your Rapidproxy credentials.
+
+```env
+RAPIDPROXY_HOST=HOST
+RAPIDPROXY_PORT=PORT
+RAPIDPROXY_USERNAME=USERNAME
+RAPIDPROXY_PASSWORD=PASSWORD
+
+BROWSER_USE_API_KEY=YOUR_BROWSER_USE_API_KEY
 ```
 
 ---
 
 ## Run the Example
+
+Make sure your `.env` file has been configured before running the example.
 
 ```bash
 python example.py

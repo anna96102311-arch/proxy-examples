@@ -1,14 +1,18 @@
 import asyncio
+import os
 
+from dotenv import load_dotenv
 from browser_use import Agent, Browser, ChatBrowserUse
 from browser_use.browser import ProxySettings
 
 
 async def main():
+    load_dotenv()
+
     proxy = ProxySettings(
-        server="http://HOST:PORT",
-        username="USERNAME",
-        password="PASSWORD",
+        server=f"http://{os.getenv('RAPIDPROXY_HOST')}:{os.getenv('RAPIDPROXY_PORT')}",
+        username=os.getenv("RAPIDPROXY_USERNAME"),
+        password=os.getenv("RAPIDPROXY_PASSWORD"),
     )
 
     browser = Browser(
