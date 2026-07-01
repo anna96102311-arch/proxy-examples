@@ -46,33 +46,26 @@ proxy-examples
 
 ### Basic
 
-- cURL
-- Python Requests
-- Axios
-- Fetch
-
-### Web Scraping
-
-- Scrapy
-- BeautifulSoup
-- HTTPX
+- ✅ [cURL](examples/basic/curl)
+- ✅ [Python Requests](examples/basic/python-requests)
+- 🚧 Axios *(Coming Soon)*
+- 🚧 Fetch *(Coming Soon)*
 
 ### Browser Automation
 
-- Playwright
-- Puppeteer
-- Selenium
+- ✅ [Playwright](examples/browser-automation/playwright)
+- 🚧 Puppeteer *(Coming Soon)*
+- 🚧 Selenium *(Coming Soon)*
 
 ### AI Agents
 
-- Browser Use
-- OpenAI SDK
-- LangChain
-- LangGraph
+- 🚧 Browser Use *(Coming Soon)*
+- 🚧 OpenAI SDK *(Coming Soon)*
+- 🚧 LangChain *(Coming Soon)*
 
 ---
 
-## 📚 Documentation
+## 📚 Resources
 
 - 🌐 Website  
   https://www.rapidproxy.io/
@@ -96,3 +89,7 @@ If you'd like to contribute examples for another language or framework, feel fre
 ## 📄 License
 
 MIT License
+
+---
+
+⭐ If you find this repository helpful, please consider giving it a Star.
