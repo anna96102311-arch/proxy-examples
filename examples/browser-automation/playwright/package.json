@@ -1,0 +1,12 @@
+{
+  "name": "rapidproxy-playwright-example",
+  "version": "1.0.0",
+  "description": "Playwright proxy example for Rapidproxy",
+  "private": true,
+  "scripts": {
+    "start": "node example.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
