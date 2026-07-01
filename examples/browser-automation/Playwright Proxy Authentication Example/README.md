@@ -1,6 +1,6 @@
-# Playwright Proxy Example
+# Playwright Proxy Authentication Example
 
-Learn how to configure Rapidproxy with Playwright to browse websites through residential proxies.
+Use Rapidproxy with Playwright to authenticate and verify residential proxy connections.
 
 ---
 

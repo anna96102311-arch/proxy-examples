@@ -53,7 +53,7 @@ proxy-examples
 
 ### Browser Automation
 
-- ✅ [Playwright](examples/browser-automation/playwright)
+- ✅ [Playwright Proxy Authentication](examples/browser-automation/playwright)
 - 🚧 Puppeteer *(Coming Soon)*
 - 🚧 Selenium *(Coming Soon)*
 
