@@ -30,14 +30,22 @@ Whether you're building web scrapers, browser automation workflows, AI agents, o
 
 ```text
 proxy-examples
-├── assets
 ├── examples
 │   ├── basic
-│   ├── web-scraping
+│   │   ├── curl
+│   │   └── python-requests
 │   ├── browser-automation
+│   │   ├── playwright
+│   │   ├── playwright-best-practice
+│   │   └── playwright-login
 │   └── ai-agents
-├── guides
-└── scripts
+│       ├── browser-use
+│       ├── openai-sdk
+│       ├── langchain
+│       └── mcp
+├── LICENSE
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -51,17 +59,26 @@ proxy-examples
 - 🚧 Axios *(Coming Soon)*
 - 🚧 Fetch *(Coming Soon)*
 
+---
+
 ### Browser Automation
+Examples for browser automation with Playwright and other modern automation frameworks.
 
 - ✅ [Playwright Proxy Authentication](examples/browser-automation/playwright)
+- ✅ [Playwright Best Practice](examples/browser-automation/playwright-best-practice)
+- ✅ [Playwright Login](examples/browser-automation/playwright-login)
 - 🚧 Puppeteer *(Coming Soon)*
 - 🚧 Selenium *(Coming Soon)*
 
-### AI Agents
+---
 
-- 🚧 Browser Use *(Coming Soon)*
-- 🚧 OpenAI SDK *(Coming Soon)*
-- 🚧 LangChain *(Coming Soon)*
+### AI Agents
+Examples for integrating Rapidproxy with modern AI agent frameworks and SDKs.
+
+- ✅ [Browser Use](examples/ai-agents/browser-use)
+- ✅ [OpenAI SDK](examples/ai-agents/openai-sdk)
+- ✅ [LangChain](examples/ai-agents/langchain)
+- ✅ [MCP Integration Pattern](examples/ai-agents/mcp)
 
 ---
 

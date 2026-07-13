@@ -1,6 +1,8 @@
-# MCP Tool with Residential Proxy
+# # MCP Integration Pattern with Residential Proxy
 
-A minimal MCP-style tool example demonstrating how external API calls can be routed through Rapidproxy residential proxies.
+A minimal integration example demonstrating how an MCP-style tool can route external API requests through Rapidproxy residential proxies.
+
+This project focuses on the integration pattern rather than implementing a complete MCP server.
 
 ---
 
@@ -80,10 +82,14 @@ IP information returned via proxy-enabled request.
 
 ## Why This Design?
 
-- No dependency on unstable MCP SDK APIs
-- Uses stable HTTP layer
-- Fully compatible with any MCP evolution
-- Easy to extend for real MCP servers later
+This example intentionally focuses on the integration pattern instead of implementing a complete MCP server.
+
+Benefits of this approach:
+
+- Easy to understand
+- Uses stable Python networking libraries
+- Demonstrates where proxy routing belongs in an MCP-style architecture
+- Easy to extend into a full MCP implementation later
 
 ---
 
