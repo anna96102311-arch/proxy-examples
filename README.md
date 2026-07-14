@@ -34,18 +34,21 @@ proxy-examples
 │   ├── basic
 │   │   ├── curl
 │   │   └── python-requests
+│   │
 │   ├── browser-automation
 │   │   ├── playwright
 │   │   ├── playwright-best-practice
 │   │   └── playwright-login
+│   │
 │   └── ai-agents
 │       ├── browser-use
 │       ├── openai-sdk
 │       ├── langchain
 │       └── mcp
+│
+├── .gitignore
 ├── LICENSE
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
@@ -53,6 +56,8 @@ proxy-examples
 ## 🚀 Example Categories
 
 ### Basic
+
+Examples for testing and using Rapidproxy with common command-line and Python tools.
 
 - ✅ [cURL](examples/basic/curl)
 - ✅ [Python Requests](examples/basic/python-requests)
@@ -62,7 +67,7 @@ proxy-examples
 ---
 
 ### Browser Automation
-Examples for browser automation with Playwright and other modern automation frameworks.
+Examples for integrating Rapidproxy with Playwright and other modern browser automation frameworks.
 
 - ✅ [Playwright Proxy Authentication](examples/browser-automation/playwright)
 - ✅ [Playwright Best Practice](examples/browser-automation/playwright-best-practice)
@@ -73,7 +78,7 @@ Examples for browser automation with Playwright and other modern automation fram
 ---
 
 ### AI Agents
-Examples for integrating Rapidproxy with modern AI agent frameworks and SDKs.
+Examples for integrating Rapidproxy with modern AI frameworks, agents, and SDKs.
 
 - ✅ [Browser Use](examples/ai-agents/browser-use)
 - ✅ [OpenAI SDK](examples/ai-agents/openai-sdk)

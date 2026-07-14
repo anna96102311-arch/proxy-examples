@@ -6,7 +6,9 @@ from dotenv import load_dotenv
 
 
 def build_proxy_url() -> str:
-    """Build the Rapidproxy URL from environment variables."""
+    """
+    Build the Rapidproxy proxy URL from environment variables.
+    """
     host = os.getenv("RAPIDPROXY_HOST")
     port = os.getenv("RAPIDPROXY_PORT")
     username = os.getenv("RAPIDPROXY_USERNAME")
@@ -40,10 +42,10 @@ def build_proxy_url() -> str:
 
 def fetch_ip_info() -> dict:
     """
-    Fetch public IP information through Rapidproxy.
+    Fetch IP information through Rapidproxy.
 
-    This function represents the proxy-enabled HTTP request layer
-    used by the MCP-style integration pattern.
+    This function demonstrates the proxy-enabled request layer
+    used by an MCP-style integration pattern.
     """
     proxy_url = build_proxy_url()
 
